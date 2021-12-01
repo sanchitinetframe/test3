@@ -10,6 +10,10 @@ app.get('/fun1', (req, res) => {
     res.send('Helow fun1')
   })
 
+  app.get('/fun2', (req, res) => {
+    res.send('Helow fun2')
+  })
+
 
 
 app.listen(port, () => {

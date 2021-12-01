@@ -6,7 +6,9 @@ app.get('/', (req, res) => {
   res.send('Hello! World2')
 })
 
-
+app.get('/fun1', (req, res) => {
+    res.send('Helow fun1')
+  })
 
 
 
